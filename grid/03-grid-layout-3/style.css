@@ -37,6 +37,7 @@
 .menu ul {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
+  justify-items: end;
 }
 
 ul {
@@ -46,7 +47,6 @@ ul {
 .menu ul,
 .menu li {
   font-size: 16px;
-
 }
 
 .sidebar {
